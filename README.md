@@ -13,6 +13,7 @@ the user that their time is up.
   <li>StyleSheet (https://reactnative.dev/docs/stylesheet)</li>
   <li>Platform (https://reactnative.dev/docs/platform)</li>
   <li>Vibration (https://reactnative.dev/docs/vibration)</li>
+  <li>TouchableOpacity (https://reactnative.dev/docs/touchableopacity)</li>  
   <li>FlatList (https://reactnative.dev/docs/flatlist)</li>
   <li>useState (https://reactjs.org/docs/hooks-state.html)</li>
   <li>useEffect (https://reactjs.org/docs/hooks-effect.html)</li>
