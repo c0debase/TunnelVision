@@ -1,4 +1,4 @@
-import { useKeepAwake } from 'expo-keep-awake';
+// import { useKeepAwake } from 'expo-keep-awake';
 import React, { useState } from 'react';
 import { View, StyleSheet, Text, Vibration, Platform } from 'react-native';
 import { ProgressBar } from 'react-native-paper';
@@ -12,7 +12,7 @@ import { spacing } from '../../utils/sizes';
 const DEFAULT_TIME = 0.1;
 
 export const Timer = ({ focusSubject, onTimerEnd, clearSubject }) => {
-  useKeepAwake();
+  // useKeepAwake();
   const [isStarted, setIsStarted] = useState(false);
   const [progress, setProgress] = useState(1);
   const [minutes, setMinutes] = useState(DEFAULT_TIME);
